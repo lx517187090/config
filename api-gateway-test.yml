@@ -22,3 +22,16 @@ feign:
     connection-timeout: 30000
 env:
   test44
+zuul:
+  host:
+    connect-timeout-millis: 100000
+    socket-timeout-millis: 200000
+
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
