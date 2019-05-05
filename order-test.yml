@@ -21,4 +21,4 @@ feign:
   httpclient:
     connection-timeout: 30000
 env:
-  test2
+  test
