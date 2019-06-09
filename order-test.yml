@@ -22,3 +22,8 @@ feign:
     connection-timeout: 30000
 env:
   test44
+management:
+  endpoints:
+    web:
+      exposure:
+        include: beans
